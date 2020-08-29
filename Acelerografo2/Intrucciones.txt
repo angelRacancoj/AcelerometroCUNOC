@@ -1,0 +1,26 @@
+Intrucciones:
+Este programa tiene como proposito recibir la informacion recolectada por un arduino con un acelerometro, transformando la informacion de entrada en una grafica con las 3 aceleraciones de entrada, estos datos se muestran el tiempo real. Se almacena la informacion recolectada dentro de un archivo .csv que puede ser abierto con una hoja de calculo (Ej. Excel).
+
+Para la ejecucion del programa es necesario abrir la consola de comandos en la ubicacion donde se encuetro nuestro archivo 'Acelerografo2-1.0-SNAPSHOT.jar' e ingresar el siguiente comando:
+
+java -jar Acelerografo2-1.0-SNAPSHOT.jar
+
+Cuando inicie el programa aun no se ejecutara la grafica, debe presionar "Ejecucion"->"Iniciar".
+Esto nos abrira una ventana para elegir en donde se colocara el archivo para almacenar la informacion de la entrada de datos.
+	-El nuevo archivo sera en CSV
+	-Se puede o no agregar la terminacion de nuestro archivo, si no agregarmos ".scv" en nuestro archivo el sistema se encargara de asignarle la extension.
+
+Cuando se desee terminar de recibir datos, se debe cerrar la ventana para terminar la ejecucion del programa.
+
+El archivo de salida contara con la siguiente configuracion de columnas.
+
+'2020-08-23T01:18:17.310',9,10,17
+
+Donde:
+-'2020-08-23T01:18:17.310' -> La primer columna corresponde a la fecha y hora de la lectura del sensor.
+-9 -> La segunda columna a la aceleracion en X.
+-10 -> La Tercer columna corresponde a la aceleracion en Y.
+-17 -> La cuarta columna corresponde a la aceleracion en Z.
+
+Creado por: Ruben Contreras
+Modificado y Rediseñado por: Angel Racancoj

@@ -1,0 +1,32 @@
+/* 
+    Created on : Aug 29, 2020, 1:03:13 PM
+    Author     : angelrg
+*/
+
+.chart-series-line{
+    -fx-stroke-width: 2px;
+}
+
+.default-color0.chart-series-line{
+    -fx-stroke: #FA0000;
+}
+
+.default-color1.chart-series-line{
+    -fx-stroke: #00E5FA;
+}
+
+.default-color2.chart-series-line{
+    -fx-stroke: #E500FA;
+}
+
+.default-color0.chart-line-symbol{
+    -fx-background-color: #FA0000, #FFFFFF;
+}
+
+.default-color1.chart-line-symbol{
+    -fx-background-color: #00E5FA;
+}
+
+.default-color2.chart-line-symbol{
+    -fx-background-color: #E500FA;
+}
